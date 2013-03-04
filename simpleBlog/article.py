@@ -29,6 +29,13 @@ class Article (tornado.web.RequestHandler):
 			Create an article
 		"""
 		raise NotImplementedError()
+		
+	
+	def delete(self, title):
+		"""
+			Delete an article
+		"""
+		raise NotImplementedError()
 
 
 
